@@ -4,4 +4,5 @@
 
 $LOAD_PATH.unshift File.expand_path('.', 'lib')
 
-require 'toml_rb'
+require 'rbtoml'
+require 'rbtoml/io'
