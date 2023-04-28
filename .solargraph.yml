@@ -1,0 +1,15 @@
+include:
+- "**/*.rb"
+- "./lib/**/*.rb"
+exclude:
+- spec/**/*
+- test/**/*
+- tests/**/*
+- vendor/**/*
+- ".bundle/**/*"
+require:
+- sqlite3
+domains: []
+reporters:
+- rubocop
+max_files: 5000
